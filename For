@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int angka_awal = 0;
+int angka_akhir = 0;
+int hasil = 0;
+int main()
+{
+	cout<<"Masukan angka Awal  = ";
+	cin>>angka_awal;
+	cout<<endl;
+	cout<<"Masukan angka Akhir = ";
+	cin>>angka_akhir;
+	cout<<endl;
+	for (int hasil = angka_awal; hasil <=angka_akhir; hasil++)
+	if (hasil%2==0){
+		cout<<hasil<<" Angka Genap"<<endl;
+		cout<<endl;
+	}else{
+		cout<<hasil<<" Angka Ganjil"<<endl;
+	}
+	return 0;
+}
