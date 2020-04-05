@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+char m = 0;
+int a = 1;
+int main()
+{
+	do{
+		for ( a = 1; a<=10; a++)
+		cout<<a<<endl;
+		cout<<endl;
+		cout<<"apakah mau diulang atau selesai [y/n] = " ;
+		cin>>m;
+	} while (m == 'y');{
+	cout<<endl;
+	cout<<"selesai"<<endl;
+}
+return 0;
+}
