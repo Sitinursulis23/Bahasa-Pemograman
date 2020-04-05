@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a = 100;
+	while (a<=1000){
+		if(a%2==0){
+			cout<<"angka genap ";
+			cout<<a;
+			cout<<endl;
+			cout<<endl;
+		}else{
+			cout<<"angka ganjil ";
+			cout<<a;
+			cout<<endl;
+		}
+		a++;
+	}	
+	return 0;	
+}
